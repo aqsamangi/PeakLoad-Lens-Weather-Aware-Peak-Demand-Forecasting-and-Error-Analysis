@@ -1,0 +1,15 @@
+# raw data is downloaded by the user (see data/README.md)
+data/*.csv
+data/*.zip
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
