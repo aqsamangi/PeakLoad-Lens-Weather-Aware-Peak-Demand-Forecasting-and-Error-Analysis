@@ -1,0 +1,5 @@
+best_vs_persistence_all,"{""mean_diff"": 1048.737283278448, ""ci95_low"": 990.5690153591624, ""ci95_high"": 1101.8580244697216, ""n_days_resampled"": 121}"
+best_vs_persistence_peak,"{""mean_diff"": 2059.808123039474, ""ci95_low"": 1939.1272326714225, ""ci95_high"": 2165.351486843687, ""n_days_resampled"": 121}"
+best_vs_persistence_nonpeak,"{""mean_diff"": 999.3618120286022, ""ci95_low"": 944.7199168777863, ""ci95_high"": 1050.3791668085664, ""n_days_resampled"": 121}"
+best_vs_same_time_yesterday_all,"{""mean_diff"": 227.48170594235916, ""ci95_low"": 139.41734788172027, ""ci95_high"": 321.9448697591731, ""n_days_resampled"": 121}"
+best_vs_same_time_yesterday_peak,"{""mean_diff"": -522.2981709309329, ""ci95_low"": -691.835232048243, ""ci95_high"": -353.9546253407961, ""n_days_resampled"": 121}"

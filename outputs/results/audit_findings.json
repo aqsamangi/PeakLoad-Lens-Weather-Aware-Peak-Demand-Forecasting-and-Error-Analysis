@@ -1,0 +1,191 @@
+{
+  "shape": [
+    52416,
+    9
+  ],
+  "columns": [
+    "DateTime",
+    "Temperature",
+    "Humidity",
+    "Wind Speed",
+    "general diffuse flows",
+    "diffuse flows",
+    "Zone 1 Power Consumption",
+    "Zone 2  Power Consumption",
+    "Zone 3  Power Consumption"
+  ],
+  "dtypes": {
+    "DateTime": "str",
+    "Temperature": "float64",
+    "Humidity": "float64",
+    "Wind Speed": "float64",
+    "general diffuse flows": "float64",
+    "diffuse flows": "float64",
+    "Zone 1 Power Consumption": "float64",
+    "Zone 2  Power Consumption": "float64",
+    "Zone 3  Power Consumption": "float64"
+  },
+  "rows_match_uci_page": false,
+  "rows_found": 52416,
+  "columns_match_expected": true,
+  "datetime_unparsed": 0,
+  "first_timestamp": "2017-01-01 00:00:00",
+  "last_timestamp": "2017-12-30 23:50:00",
+  "chronological": true,
+  "duplicate_rows": 0,
+  "duplicate_timestamps": 0,
+  "interval_counts": {
+    "0 days 00:10:00": 52415
+  },
+  "non_10min_intervals": 0,
+  "missing_grid_timestamps": 0,
+  "days_covered": 364,
+  "days_not_144_obs": 0,
+  "calendar_days_in_year_missing": 1,
+  "missing_calendar_dates": [
+    "2017-12-31"
+  ],
+  "missing_values": {
+    "Temperature": 0,
+    "Humidity": 0,
+    "Wind Speed": 0,
+    "general diffuse flows": 0,
+    "diffuse flows": 0,
+    "Zone 1 Power Consumption": 0,
+    "Zone 2  Power Consumption": 0,
+    "Zone 3  Power Consumption": 0
+  },
+  "non_numeric_values": 0,
+  "non_finite_values": 0,
+  "non_positive_values": {
+    "Temperature": 0,
+    "Humidity": 0,
+    "Wind Speed": 0,
+    "general diffuse flows": 0,
+    "diffuse flows": 0,
+    "Zone 1 Power Consumption": 0,
+    "Zone 2  Power Consumption": 0,
+    "Zone 3  Power Consumption": 0
+  },
+  "describe": {
+    "Temperature": {
+      "count": 52416.0,
+      "mean": 18.81,
+      "std": 5.815,
+      "min": 3.247,
+      "25%": 14.41,
+      "50%": 18.78,
+      "75%": 22.89,
+      "max": 40.01
+    },
+    "Humidity": {
+      "count": 52416.0,
+      "mean": 68.26,
+      "std": 15.551,
+      "min": 11.34,
+      "25%": 58.31,
+      "50%": 69.86,
+      "75%": 81.4,
+      "max": 94.8
+    },
+    "Wind Speed": {
+      "count": 52416.0,
+      "mean": 1.959,
+      "std": 2.349,
+      "min": 0.05,
+      "25%": 0.078,
+      "50%": 0.086,
+      "75%": 4.915,
+      "max": 6.483
+    },
+    "general diffuse flows": {
+      "count": 52416.0,
+      "mean": 182.697,
+      "std": 264.401,
+      "min": 0.004,
+      "25%": 0.062,
+      "50%": 5.036,
+      "75%": 319.6,
+      "max": 1163.0
+    },
+    "diffuse flows": {
+      "count": 52416.0,
+      "mean": 75.028,
+      "std": 124.211,
+      "min": 0.011,
+      "25%": 0.122,
+      "50%": 4.456,
+      "75%": 101.0,
+      "max": 936.0
+    },
+    "Zone 1 Power Consumption": {
+      "count": 52416.0,
+      "mean": 32344.971,
+      "std": 7130.563,
+      "min": 13895.696,
+      "25%": 26310.669,
+      "50%": 32265.92,
+      "75%": 37309.018,
+      "max": 52204.395
+    },
+    "Zone 2  Power Consumption": {
+      "count": 52416.0,
+      "mean": 21042.509,
+      "std": 5201.466,
+      "min": 8560.081,
+      "25%": 16980.766,
+      "50%": 20823.168,
+      "75%": 24713.718,
+      "max": 37408.861
+    },
+    "Zone 3  Power Consumption": {
+      "count": 52416.0,
+      "mean": 17835.406,
+      "std": 6622.165,
+      "min": 5935.174,
+      "25%": 13129.327,
+      "50%": 16415.117,
+      "75%": 21624.1,
+      "max": 47598.326
+    }
+  },
+  "extreme_iqr_x3_counts": {
+    "Temperature": 0,
+    "Humidity": 0,
+    "Wind Speed": 0,
+    "general diffuse flows": 0,
+    "diffuse flows": 1690,
+    "Zone 1 Power Consumption": 0,
+    "Zone 2  Power Consumption": 0,
+    "Zone 3  Power Consumption": 18
+  },
+  "longest_identical_run_consumption": {
+    "Zone 1 Power Consumption": 3,
+    "Zone 2  Power Consumption": 3,
+    "Zone 3  Power Consumption": 3
+  },
+  "zone1_10min_abs_change": {
+    "median": 310.3,
+    "p99": 2480.2,
+    "max": 19344.7
+  },
+  "temperature_range": [
+    3.247,
+    40.01
+  ],
+  "humidity_outside_0_100": 0,
+  "observations_per_month": {
+    "2017-01": 4464,
+    "2017-02": 4032,
+    "2017-03": 4464,
+    "2017-04": 4320,
+    "2017-05": 4464,
+    "2017-06": 4320,
+    "2017-07": 4464,
+    "2017-08": 4464,
+    "2017-09": 4320,
+    "2017-10": 4464,
+    "2017-11": 4320,
+    "2017-12": 4320
+  }
+}

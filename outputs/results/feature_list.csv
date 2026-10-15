@@ -1,0 +1,25 @@
+feature,in_set_A,in_set_B,why
+y_t,True,True,Latest observed Zone 1 consumption (the persistence signal).
+y_lag_10m,True,True,Consumption 10 min earlier; with y_t gives very-short-term direction.
+y_lag_30m,True,True,Consumption 30 min earlier.
+y_lag_1h,True,True,Consumption 1 h earlier.
+y_lag_2h,True,True,Consumption 2 h earlier; captures the slower trend.
+y_same_time_yesterday,True,True,Consumption at the target's clock time on the previous day (t-23h).
+change_30m,True,True,y_t minus the value 30 min earlier: recent momentum.
+change_1h,True,True,y_t minus the value 1 h earlier: recent momentum over the horizon length.
+roll_mean_1h,True,True,Mean of the last 6 observations (incl. t): denoised current level.
+roll_std_1h,True,True,Std of the last 6 observations: short-term volatility.
+roll_mean_6h,True,True,Mean of the last 36 observations: intraday level.
+roll_std_6h,True,True,Std of the last 36 observations: intraday volatility.
+roll_mean_24h,True,True,Mean of the last 144 observations: daily level.
+hour_sin,True,True,"Hour of the TARGET time, cyclical (sin): 23:00 sits next to 00:00."
+hour_cos,True,True,"Hour of the TARGET time, cyclical (cos)."
+dow_sin,True,True,"Day of week of the TARGET time, cyclical (sin)."
+dow_cos,True,True,"Day of week of the TARGET time, cyclical (cos)."
+is_weekend,True,True,1 if the target time is Saturday/Sunday (holidays are not modelled).
+temperature,False,True,Temperature at the origin (units not stated by UCI).
+humidity,False,True,Humidity at the origin.
+wind_speed,False,True,Wind speed at the origin.
+general_diffuse_flows,False,True,'general diffuse flows' at the origin (undefined by UCI; solar-radiation-like).
+diffuse_flows,False,True,'diffuse flows' at the origin (undefined by UCI).
+temp_change_1h,False,True,Temperature change over the last hour (origin minus 1 h earlier).
